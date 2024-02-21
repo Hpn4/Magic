@@ -1,0 +1,15 @@
+.button {
+	-fx-shape:"M 450 200 A 50 50 0 0 1 450 400 L 650 400 A 50 50 0 1 0 650 200 Z";
+	-fx-background-color:rgba(0, 0, 0, 0.5);
+	-fx-border-color:white;
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-font-size:40px;
+	-fx-padding: 0 10 0 30;
+	-fx-scale-x: 1;
+	-fx-scale-y: 1;
+}
+
+.button:hover {
+	-fx-background-color: rgba(0, 0, 0, 0.2);
+}
